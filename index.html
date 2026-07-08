@@ -21,7 +21,6 @@
     "jobTitle": "Sales & Business Development, Specialty Finance, Futures & Capital Markets",
     "description": "Sales and business development leader in specialty finance, futures, and capital markets with more than 25 years of experience originating and closing.",
     "knowsAbout": ["Specialty Finance", "Capital Markets", "Futures", "Business Development", "Working Capital", "Merchant Cash Advance", "Trading Systems"],
-    "address": { "@type": "PostalAddress", "addressLocality": "Nashville", "addressRegion": "TN", "addressCountry": "US" },
     "email": "mailto:eliceaga@gmail.com",
     "alumniOf": [
       { "@type": "CollegeOrUniversity", "name": "Loyola University Chicago, Quinlan School of Business" },
@@ -90,7 +89,28 @@
     }
     .venture {
       border: 1.5px solid var(--rule); border-radius: 12px;
-      padding: 22px 24px; margin-bottom: 16px;
+      padding: 0; margin-bottom: 20px; overflow: hidden;
+    }
+    .venture-content { padding: 22px 24px; }
+    .venture-banner {
+      background: #12283F; padding: 40px 28px 36px;
+    }
+    .venture-banner .dash {
+      display: block; width: 34px; height: 5px; background: #E0A93E;
+      border-radius: 2px; margin-bottom: 18px;
+    }
+    .venture-banner .line {
+      color: #ffffff; font-size: 26px; font-weight: 700; line-height: 1.3; max-width: 540px;
+    }
+    .venture-banner .line em { color: #E0A93E; font-style: normal; }
+    .venture-banner .brandrow {
+      display: flex; justify-content: space-between; margin-top: 26px;
+      font-size: 14px; color: #ffffff; font-weight: 650;
+    }
+    .venture-banner .brandrow span:last-child { color: #E0A93E; font-weight: 500; }
+    .venture-photo { height: 230px; overflow: hidden; }
+    .venture-photo img {
+      width: 150%; height: 100%; object-fit: cover; object-position: left center; display: block;
     }
     .venture h3 { font-size: 18px; font-weight: 650; margin-bottom: 4px; }
     .venture p { font-size: 16px; color: var(--ink-soft); margin-bottom: 14px; }
@@ -146,7 +166,7 @@
       <h2>About</h2>
       <p class="lede">Edward M. Liceaga has spent more than 25 years on the revenue side of finance: originating, structuring, and closing across specialty finance, futures and options markets, and capital markets.</p>
       <p>He began his career as an equity and commodity research analyst before moving into institutional sales of options-trading and risk-management software, then served as Managing Director of an investment banking capital markets group executing capital raises and M&amp;A advisory mandates for middle-market clients, hedge funds, and private equity. He went on to found and co-found multiple investment firms focused on growth capital for small- and micro-cap companies, sourcing and closing deals across North America, Europe, Australia, and Asia-Pacific.</p>
-      <p>Today, based in Nashville, he drives business development for a specialty finance firm offering working capital advances, lines of credit, asset-based loans, AR factoring, and bridge lending, and he leads sales for a trading-automation platform serving active futures and options traders. He is an active NQ futures trader himself, which means he speaks the customer's language because he is one. He holds an MBA with a Derivatives concentration from Loyola University Chicago and writes about small-business financing and markets.</p>
+      <p>Today, he drives business development for a specialty finance firm offering working capital advances, lines of credit, asset-based loans, AR factoring, and bridge lending, and he leads sales for a trading-automation platform serving active futures and options traders. He is an active NQ futures trader himself, which means he speaks the customer's language because he is one. He holds an MBA with a Derivatives concentration from Loyola University Chicago and writes about small-business financing and markets.</p>
     </section>
 
     <section id="experience">
@@ -214,20 +234,29 @@
     <section id="ventures">
       <h2>What I'm Working On</h2>
       <div class="venture">
-        <h3>Creative Capital Solutions</h3>
-        <p>Working capital for small and mid-sized businesses: advances from $10K to $5M, business lines of credit, asset-based loans, AR factoring, and bridge loans. Fast, flexible, and structured around your cash flow. I work directly with owners to find the right fit.</p>
-        <a class="cta" href="https://ccapsolution.com/apply/?agent=edward.liceaga">Apply for funding</a>
-        <p class="fineprint">Funding subject to approval. Businesses may qualify in as fast as 24 hours on approved files.</p>
+        <div class="venture-banner">
+          <span class="dash"></span>
+          <div class="line">Banks judge your <em>credit score</em>. We judge your <em>revenue</em>.</div>
+          <div class="brandrow"><span>CCAP Solution</span><span>ccapsolution.com</span></div>
+        </div>
+        <div class="venture-content">
+          <h3>Creative Capital Solutions</h3>
+          <p>Working capital for small and mid-sized businesses: advances from $10K to $5M, business lines of credit, asset-based loans, AR factoring, and bridge loans. Fast, flexible, and structured around your cash flow. I work directly with owners to find the right fit.</p>
+          <a class="cta" href="https://ccapsolution.com/apply/?agent=edward.liceaga">Apply for funding</a>
+          <p class="fineprint">Funding subject to approval. Businesses may qualify in as fast as 24 hours on approved files.</p>
+        </div>
       </div>
-      <div class="venture venture-flex">
-        <div class="venture-body">
+      <div class="venture">
+        <div class="venture-photo">
+          <img src="assets/kenetik-can.png" alt="Kenetik ketone drink in hand">
+        </div>
+        <div class="venture-content">
           <h3>Kenetik</h3>
           <p>A caffeine-free ketone drink I use on my own trading desk. Kenetik is powered by bioidentical D-BHB ketones, the same molecule your body produces when fasting, and it supports clarity, focus, and cognitive endurance through a long session without relying on caffeine.</p>
           <p>It comes as ready-to-drink cans, 2 oz shots, and a concentrate, in flavors like Blackberry Lemonade, Strawberry Peach, Pineapple Passion Fruit, and Watermelon Lime. Zero caffeine, zero sugar, 60 calories, nothing artificial, and Informed Sport certified.</p>
           <p>If your work demands hours of sustained attention, whether that's a trading desk, a sales floor, or a training block, it's worth trying.</p>
           <a class="cta" href="https://drinkkenetik.com/EDDIEG">Try Kenetik</a>
         </div>
-        <img class="venture-img" src="assets/kenetik.png" alt="Kenetik ketone drink">
       </div>
     </section>
 
