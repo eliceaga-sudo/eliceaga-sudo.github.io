@@ -134,6 +134,14 @@
       transition: border-color 0.15s, color 0.15s;
     }
     .links a:hover { border-color: var(--accent); color: var(--accent); }
+    .stats {
+      display: flex; flex-wrap: wrap; gap: 34px;
+      padding: 0 0 26px; margin-bottom: 26px; border-bottom: 1px solid var(--rule);
+    }
+    .stat strong {
+      display: block; font-size: 30px; font-weight: 700; color: var(--accent); letter-spacing: -0.01em;
+    }
+    .stat span { font-size: 14px; color: var(--ink-soft); }
     .badge-row { margin-top: 18px; }
     .badge-row img { display: block; width: 78px; height: 22px; }
     footer { padding: 36px 0 56px; font-size: 14px; color: var(--ink-soft); }
@@ -167,9 +175,16 @@
 
     <section id="about">
       <h2>About</h2>
-      <p class="lede">Edward M. Liceaga has spent more than 25 years on the revenue side of finance: originating, structuring, and closing across specialty finance, futures and options markets, and capital markets.</p>
-      <p>He began his career as an equity and commodity research analyst before moving into institutional sales of options-trading and risk-management software, then served as Managing Director of an investment banking capital markets group executing capital raises and M&amp;A advisory mandates for middle-market clients, hedge funds, and private equity. He went on to found and co-found multiple investment firms focused on growth capital for small- and micro-cap companies, sourcing and closing deals across North America, Europe, Australia, and Asia-Pacific.</p>
-      <p>Today, he drives business development for a specialty finance firm offering working capital advances, lines of credit, asset-based loans, AR factoring, and bridge lending, and he leads sales for a trading automation platform serving active futures and options traders. He is an active NQ futures trader himself, which means he speaks the customer's language because he is one. He holds an MBA with a Derivatives concentration from Loyola University Chicago and writes about small-business financing and markets.</p>
+      <div class="stats">
+        <div class="stat"><strong>25+</strong><span>years originating and closing</span></div>
+        <div class="stat"><strong>$100M+</strong><span>funded</span></div>
+        <div class="stat"><strong>1,000+</strong><span>transactions closed</span></div>
+      </div>
+      <p class="lede">For more than 25 years I have built companies, deployed capital, and scaled revenue across private credit, specialty finance, capital markets, and financial services.</p>
+      <p>My career has combined investing, executive leadership, capital raising, and business development. I founded and led multiple investment and specialty finance companies, served as Managing Director of an investment banking capital markets group, raised institutional capital from family offices and high net worth investors, and closed transactions across North America, Europe, Australia, and Hong Kong.</p>
+      <p>Today I drive business development at a specialty finance firm, where I built the ISO and referral partner channel from zero to ten active partners producing roughly fifty qualified applications a month, working with owners on working capital, lines of credit, asset based lending, and AR factoring.</p>
+      <p>I am also an active trader. I trade NQ futures and NDX options every session and run systematic strategies through TradingView and webhook execution, working daily in Tradovate, Rithmic, and NinjaTrader. That matters because I am not describing markets from the outside. When I sit with a trader, a broker, or a business owner, I am talking as a peer.</p>
+      <p>My approach is straightforward: build trust, solve real problems, execute with discipline, and create durable value for clients, partners, and shareholders.</p>
     </section>
 
     <section id="experience">
@@ -288,10 +303,6 @@
       <div class="role">
         <h3>Illinois State University</h3>
         <div class="meta">B.S., Accounting &middot; 2001</div>
-      </div>
-      <div class="role">
-        <h3>Securities Licenses</h3>
-        <div class="meta">Series 7, 63, and 65 (lapsed)</div>
       </div>
     </section>
 
