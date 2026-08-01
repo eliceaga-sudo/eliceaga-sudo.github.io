@@ -6,6 +6,16 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://edwardliceaga.com/articles/what-underwriters-look-for-in-bank-statements.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://edwardliceaga.com/articles/the-2pm-wall.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://edwardliceaga.com/articles/when-the-bank-says-no.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
