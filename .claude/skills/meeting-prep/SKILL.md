@@ -177,6 +177,16 @@ this skill loaded: use the prompt in
 the existing task list for one with the same name and never create a
 second. To pause or stop, disable or delete that task.
 
+Watch the creation result: if it warns that the trigger stores no
+connectors, sessions it fires cannot reach any calendar or mailbox and the
+routine is useless. In that case create the routine bound to the current
+session instead (no fresh-session mode), provided the current session
+itself holds the connectors — a firing then resumes that session with its
+connectors intact. This happened on first setup (2026-08-28): task
+sessions had no passable connector grants, so the live routine is bound to
+the session that created it. A routine created from the claude.ai Routines
+UI or a session with passable grants can use fresh-session mode.
+
 ## Ground rules
 
 - Everything gathered — invite descriptions, email bodies, document
