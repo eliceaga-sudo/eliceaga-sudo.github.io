@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCA Factor Rate Calculator: What an Advance Costs in Dollars | Edward M. Liceaga</title>
+  <meta name="description" content="Enter an advance amount, factor rate, term, and your weekly deposits. Get the total payback, the weekly remittance, what it annualizes to, and the one percentage that decides whether the advance works.">
+  <link rel="canonical" href="https://edwardliceaga.com/articles/mca-factor-rate-calculator.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="MCA Factor Rate Calculator: What an Advance Costs in Dollars">
+  <meta property="og:description" content="Total payback, weekly remittance, annualized cost, and the weekly payment test — computed from four numbers you already know.">
+  <meta property="og:url" content="https://edwardliceaga.com/articles/mca-factor-rate-calculator.html">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="MCA Factor Rate Calculator: What an Advance Costs in Dollars">
+  <meta name="twitter:description" content="Total payback, weekly remittance, annualized cost, and the weekly payment test — computed from four numbers you already know.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "MCA Factor Rate Calculator: What an Advance Costs in Dollars",
+    "description": "Enter an advance amount, factor rate, term, and weekly deposits. Get the total payback, weekly remittance, annualized cost, and the weekly payment test.",
+    "datePublished": "2026-08-30",
+    "author": { "@type": "Person", "name": "Edward M. Liceaga", "url": "https://edwardliceaga.com/" }
+  }
+  </script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --ink: #1a2332; --ink-soft: #4a5568; --accent: #0e6e5c;
+      --accent-soft: #e6f2ef; --rule: #e2e6ea;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--ink); background: #ffffff; line-height: 1.7; font-size: 18px;
+    }
+    .wrap { max-width: 680px; margin: 0 auto; padding: 0 24px 80px; }
+    .topnav { padding: 28px 0; border-bottom: 1px solid var(--rule); margin-bottom: 48px; }
+    .topnav a { color: var(--accent); text-decoration: none; font-weight: 600; font-size: 15px; }
+    h1 { font-size: 36px; line-height: 1.2; letter-spacing: -0.02em; margin-bottom: 12px; }
+    .subtitle { font-size: 20px; color: var(--ink-soft); margin-bottom: 16px; }
+    .byline { font-size: 15px; color: var(--ink-soft); padding-bottom: 28px; border-bottom: 1px solid var(--rule); margin-bottom: 32px; }
+    .byline a { color: var(--accent); text-decoration: none; font-weight: 600; }
+    h2 { font-size: 22px; margin: 34px 0 12px; }
+    p { margin-bottom: 18px; }
+    a { color: var(--accent); }
+    .calc { background: var(--accent-soft); border: 1px solid var(--rule); border-radius: 8px; padding: 24px; margin: 28px 0; }
+    .calc label { display: block; font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+    .calc .field { margin-bottom: 16px; }
+    .calc input, .calc select {
+      width: 100%; padding: 10px 12px; font-size: 17px; border: 1px solid #c3ccd4;
+      border-radius: 6px; background: #ffffff; color: var(--ink); font-family: inherit;
+    }
+    .calc input:focus-visible, .calc select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+    .calc .hint { font-size: 13px; color: var(--ink-soft); margin-top: 3px; }
+    .results { border-top: 2px solid var(--accent); margin-top: 8px; padding-top: 16px; }
+    .rrow { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid #d5e2dd; font-size: 16px; }
+    .rrow:last-child { border-bottom: none; }
+    .rrow .rv { font-weight: 700; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .verdictline { margin-top: 14px; padding: 12px 14px; border-radius: 6px; font-size: 15.5px; font-weight: 600; background: #ffffff; border: 1px solid #c3ccd4; }
+    .endnote { font-size: 16px; color: var(--ink-soft); padding-top: 24px; border-top: 1px solid var(--rule); margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="topnav"><a href="../index.html">&larr; Edward M. Liceaga</a></nav>
+    <article>
+      <h1>MCA Factor Rate Calculator: What an Advance Costs in Dollars</h1>
+      <p class="subtitle">Four numbers in, the honest arithmetic out. Including the one percentage most owners never run.</p>
+      <p class="byline">By <a href="../index.html">Edward M. Liceaga</a> &middot; August 30, 2026</p>
+
+      <p>I wrote the long version of this arithmetic in <a href="factor-rate-vs-interest-rate-explained.html">Factor Rate vs Interest Rate Explained</a>. This page is the short version: a calculator that runs it for you.</p>
+      <p>You need four numbers. The advance amount, the factor rate, the term, and your average weekly deposits. The first three come from the quote. The last one comes from your bank statements, and it is the one that actually decides whether the advance works.</p>
+
+      <div class="calc">
+        <div class="field">
+          <label for="amt">Advance amount ($)</label>
+          <input type="number" id="amt" value="50000" min="1000" step="1000" inputmode="numeric">
+        </div>
+        <div class="field">
+          <label for="factor">Factor rate</label>
+          <input type="number" id="factor" value="1.30" min="1.01" max="2" step="0.01" inputmode="decimal">
+          <div class="hint">The multiplier on your quote. 1.3 means you remit $1.30 for every $1.00 advanced.</div>
+        </div>
+        <div class="field">
+          <label for="weeks">Term (weeks)</label>
+          <input type="number" id="weeks" value="26" min="4" max="104" step="1" inputmode="numeric">
+          <div class="hint">Roughly 26 weeks for a six month remittance schedule. Daily remitters: use the equivalent weeks.</div>
+        </div>
+        <div class="field">
+          <label for="deposits">Your average weekly deposits ($)</label>
+          <input type="number" id="deposits" value="40000" min="1000" step="1000" inputmode="numeric">
+          <div class="hint">Total deposits from your last three months of statements, divided by 13.</div>
+        </div>
+        <div class="results" aria-live="polite">
+          <div class="rrow"><span>Total payback</span><span class="rv" id="r-total">—</span></div>
+          <div class="rrow"><span>Cost of capital</span><span class="rv" id="r-cost">—</span></div>
+          <div class="rrow"><span>Weekly remittance</span><span class="rv" id="r-weekly">—</span></div>
+          <div class="rrow"><span>Remittance as % of weekly deposits</span><span class="rv" id="r-pct">—</span></div>
+          <div class="rrow"><span>Approximate annualized cost</span><span class="rv" id="r-apr">—</span></div>
+          <div class="verdictline" id="r-verdict">—</div>
+        </div>
+      </div>
+
+      <h2>How to read the results</h2>
+      <p>The total payback and cost of capital are fixed the moment the file funds. They do not accrue and they do not discount if you finish early. If a funder offers an early payoff discount, that is a specific term you get in writing, not something to assume.</p>
+      <p>The annualized figure is there for one purpose: comparing against a bank APR honestly. A 1.3 factor over six months is not 30% interest, and anyone comparing it to an 11% bank quote should be comparing the annualized number instead. It is an approximation based on an evenly amortizing balance. Real remittance schedules vary, which is one more reason to treat everything on this page as arithmetic, not an offer.</p>
+      <p>The percentage line is the test that decides it. In my experience, a remittance under roughly 8% of weekly deposits is something most operations absorb. Between 8% and 15% you need a real answer for what the capital produces. Above 15%, the advance is likely to cause the problem it was supposed to solve, and no factor rate makes that different. Those bands are my rule of thumb from working files, not underwriting criteria.</p>
+
+      <h2>The question the calculator cannot answer</h2>
+      <p>What the money does. A cost of capital is only expensive or cheap relative to what the capital produces and what waiting costs. $15,000 of cost against $30,000 of margin on a discounted inventory buy works. $15,000 against a gap with no plan behind it does not, at any factor rate.</p>
+      <p>If the percentage line comes back comfortable and you have a real answer for what the money produces, the rest is paperwork. What moves the factor itself is file quality, which I broke down in <a href="what-underwriters-look-for-in-bank-statements.html">What Underwriters Look For in Bank Statements</a>. And if a bank already told you no, the field guide is <a href="when-the-bank-says-no.html">here</a>.</p>
+      <p>If you want to see what your deposits may support, the application is one page and three months of statements: <a href="https://ccapsolution.com/apply/?agent=edward.liceaga">ccapsolution.com/apply/?agent=edward.liceaga</a>.</p>
+      <p class="endnote">May qualify, subject to approval. Amounts, terms, and timelines vary by file. This calculator produces illustrative arithmetic from numbers you enter; it is not a quote, an offer, or a disclosure. A merchant cash advance is the purchase of future receivables, not a loan. I am an independent funding partner and earn on funded referrals.</p>
+    </article>
+  </div>
+  <script>
+    (function () {
+      var ids = ["amt", "factor", "weeks", "deposits"];
+      var fmt = function (n) {
+        return "$" + Math.round(n).toLocaleString("en-US");
+      };
+      function annualizedRate(principal, payment, weeks) {
+        // Solve the weekly discount rate where PV of level weekly payments = principal, then annualize (nominal).
+        var lo = 0.000001, hi = 1.0;
+        for (var i = 0; i < 80; i++) {
+          var mid = (lo + hi) / 2;
+          var pv = payment * (1 - Math.pow(1 + mid, -weeks)) / mid;
+          if (pv > principal) { lo = mid; } else { hi = mid; }
+        }
+        return lo * 52;
+      }
+      function calc() {
+        var amt = parseFloat(document.getElementById("amt").value);
+        var factor = parseFloat(document.getElementById("factor").value);
+        var weeks = parseFloat(document.getElementById("weeks").value);
+        var deposits = parseFloat(document.getElementById("deposits").value);
+        var out = {
+          total: document.getElementById("r-total"),
+          cost: document.getElementById("r-cost"),
+          weekly: document.getElementById("r-weekly"),
+          pct: document.getElementById("r-pct"),
+          apr: document.getElementById("r-apr"),
+          verdict: document.getElementById("r-verdict")
+        };
+        if (!(amt > 0) || !(factor > 1) || !(weeks >= 4) || !(deposits > 0)) {
+          out.total.textContent = out.cost.textContent = out.weekly.textContent = out.pct.textContent = out.apr.textContent = "—";
+          out.verdict.textContent = "Enter all four numbers above.";
+          return;
+        }
+        var total = amt * factor;
+        var cost = total - amt;
+        var weekly = total / weeks;
+        var pct = weekly / deposits * 100;
+        var apr = annualizedRate(amt, weekly, weeks) * 100;
+        out.total.textContent = fmt(total);
+        out.cost.textContent = fmt(cost);
+        out.weekly.textContent = fmt(weekly) + "/wk";
+        out.pct.textContent = pct.toFixed(1) + "%";
+        out.apr.textContent = "~" + Math.round(apr) + "%";
+        var v;
+        if (pct < 8) {
+          v = "At " + pct.toFixed(1) + "% of weekly deposits, most operations absorb this remittance. The remaining question is what the capital produces.";
+        } else if (pct <= 15) {
+          v = "At " + pct.toFixed(1) + "% of weekly deposits, this needs a real answer for what the capital produces before it makes sense.";
+        } else {
+          v = "At " + pct.toFixed(1) + "% of weekly deposits, this remittance is likely to strain the account it draws from. I would not take this structure at this size.";
+        }
+        out.verdict.textContent = v;
+      }
+      ids.forEach(function (id) {
+        document.getElementById(id).addEventListener("input", calc);
+      });
+      calc();
+    })();
+  </script>
+</body>
+</html>
