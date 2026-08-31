@@ -122,6 +122,24 @@
     }
     .venture .cta:hover { opacity: 0.9; }
     .venture .fineprint { font-size: 13px; color: var(--ink-soft); margin: 10px 0 0; }
+    .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-bottom: 34px; }
+    .feature-card {
+      border: 1.5px solid var(--rule); border-radius: 12px; padding: 20px 20px 22px;
+      display: flex; flex-direction: column; text-decoration: none;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+    .feature-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .feature-card .tag {
+      font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--accent); font-weight: 700; margin-bottom: 10px;
+    }
+    .feature-card h3 { font-size: 17px; font-weight: 650; color: var(--ink); line-height: 1.35; margin-bottom: 8px; }
+    .feature-card p { font-size: 14px; color: var(--ink-soft); line-height: 1.5; margin-bottom: 14px; }
+    .feature-card .when { font-size: 13px; color: var(--ink-soft); margin-top: auto; }
+    .subhead {
+      font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--ink-soft); font-weight: 700; margin-bottom: 6px;
+    }
     .writing-item { padding: 18px 0; border-top: 1px solid var(--rule); }
     .writing-item:first-of-type { border-top: none; padding-top: 0; }
     .writing-item a { color: var(--ink); text-decoration: none; font-weight: 650; font-size: 17px; }
@@ -156,6 +174,7 @@
       .header-flex { flex-direction: column-reverse; align-items: flex-start; gap: 24px; }
       .headshot { width: 128px; height: 128px; }
       .venture-flex { flex-direction: column; align-items: flex-start; }
+      .feature-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -281,20 +300,31 @@
 
     <section id="writing">
       <h2>Writing</h2>
-      <div class="writing-item">
-        <a href="articles/how-long-does-caffeine-stay-in-your-system.html">The Coffee You Drank at 3 PM Is Still Working at Midnight</a>
-        <div class="meta">September 2026</div>
+
+      <div class="feature-grid">
+        <a class="feature-card" href="articles/how-long-does-caffeine-stay-in-your-system.html">
+          <span class="tag">Latest</span>
+          <h3>The Coffee You Drank at 3 PM Is Still Working at Midnight</h3>
+          <p>Caffeine has a half life. Almost nobody has run the arithmetic on their own afternoon habit, and the number is worse than it feels.</p>
+          <span class="when">September 2026</span>
+        </a>
+        <a class="feature-card" href="articles/factor-rate-vs-interest-rate-explained.html">
+          <span class="tag">Small business finance</span>
+          <h3>Factor Rate vs Interest Rate: What an Advance Actually Costs</h3>
+          <p>A 1.3 factor is not 30% interest. Here is the arithmetic, and the number that actually decides it.</p>
+          <span class="when">August 2026</span>
+        </a>
+        <a class="feature-card" href="articles/trucking-business-funding-bad-credit.html">
+          <span class="tag">Small business finance</span>
+          <h3>Trucking Funding With Bad Credit: What a Parked Truck Costs</h3>
+          <p>The score is not what stops the file. The parked truck is what makes the delay expensive.</p>
+          <span class="when">August 2026</span>
+        </a>
       </div>
-      <div class="writing-item">
-        <a href="articles/factor-rate-vs-interest-rate-explained.html">Factor Rate vs Interest Rate Explained: What an Advance Actually Costs</a>
-        <div class="meta">August 2026</div>
-      </div>
+
+      <p class="subhead">More writing</p>
       <div class="writing-item">
         <a href="articles/informed-sport-certified-what-it-means.html">Informed Sport Certified: What Third Party Testing Actually Means</a>
-        <div class="meta">August 2026</div>
-      </div>
-      <div class="writing-item">
-        <a href="articles/trucking-business-funding-bad-credit.html">Trucking Business Funding With Bad Credit: What a Parked Truck Costs Every Week</a>
         <div class="meta">August 2026</div>
       </div>
       <div class="writing-item">
