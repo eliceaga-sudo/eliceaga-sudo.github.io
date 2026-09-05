@@ -8,36 +8,37 @@ Each profile below is (a) a backlink that lifts edwardliceaga.com and (b) often 
 - Never mention or reference the 2019 SEC matter anywhere.
 - Do not list securities licenses (Series 7/63/65). They are lapsed, they add nothing a recruiter values, and naming them invites a BrokerCheck lookup.
 - No location field unless required; leave it blank where optional.
+- Do not lead with trading or futures anywhere (Edward directive 2026-09-05). Positioning is business development, specialty finance, and Kenetik.
 
 ---
 
 ## 1. Crunchbase (crunchbase.com) — highest authority, do first
 
 **Name:** Edward M. Liceaga
-**Headline:** Sales & Business Development, Specialty Finance and Capital Markets
+**Headline:** Sales & Business Development Leader, Specialty Finance and Capital Markets
 **Bio:**
-Edward M. Liceaga has spent more than 25 years building companies, deploying capital, and scaling revenue across private credit, specialty finance, capital markets, and financial services. He founded and led multiple investment and specialty finance companies, served as Managing Director of an investment banking capital markets group, and has $100M+ funded with 1,000+ transactions closed across North America, Europe, Australia, and Hong Kong. He currently drives business development at a specialty finance firm and is an active futures and options trader. MBA in Derivatives, Loyola University Chicago.
+Edward M. Liceaga has spent more than 25 years building companies, deploying capital, and scaling revenue across private credit, specialty finance, capital markets, and financial services. He founded and led multiple investment and specialty finance companies, served as Managing Director of an investment banking capital markets group, and has $100M+ funded with 1,000+ transactions closed across North America, Europe, Australia, and Hong Kong. He currently leads business development at a specialty finance firm, where he built the referral and partner channel from zero to ten active partners producing roughly fifty qualified applications a month. MBA in Derivatives, Loyola University Chicago.
 **Link field:** your website.
 
 ## 2. About.me (about.me) — clean personal landing page, ranks fast
 
-**Headline:** Sales & Business Development | Specialty Finance, Futures & Capital Markets
+**Headline:** Sales & Business Development Leader | Specialty Finance & Capital Markets
 **Bio:**
-I'm Edward M. Liceaga. For more than 25 years I have built companies, deployed capital, and scaled revenue across private credit, specialty finance, and capital markets, with $100M+ funded and 1,000+ transactions closed across four continents. Today I drive business development at a specialty finance firm. I am also an active trader: NQ futures and NDX options every session, running systematic strategies through my own execution infrastructure. I am not describing markets from the outside.
+I'm Edward M. Liceaga. For more than 25 years I have built companies, deployed capital, and scaled revenue across private credit, specialty finance, and capital markets, with $100M+ funded and 1,000+ transactions closed across four continents. Today I lead business development at a specialty finance firm, where I built the referral and partner channel from zero to ten active partners producing roughly fifty qualified applications a month. About sixty percent of the business is repeat and renewal, which is the only number in this work you cannot manufacture.
 **Link:** your website (About.me makes it the primary button).
 
 ## 3. Gravatar (gravatar.com) — feeds your photo + bio across the web
 
 Use the same headshot from the site. Set the display name to Edward M. Liceaga.
 **Bio:**
-25+ years building companies, deploying capital, and scaling revenue across private credit, specialty finance, and capital markets. $100M+ funded, 1,000+ transactions closed. Active NQ futures and NDX options trader. MBA in Derivatives, Loyola University Chicago.
+25+ years building companies, deploying capital, and scaling revenue across private credit, specialty finance, and capital markets. $100M+ funded, 1,000+ transactions closed. MBA in Derivatives, Loyola University Chicago.
 **Verified link:** your website.
 
 ## 4. F6S (f6s.com) — founder/operator directory, strong domain authority
 
-**Headline:** Sales & Business Development, Specialty Finance
+**Headline:** Sales & Business Development Leader, Specialty Finance
 **Bio:**
-Edward M. Liceaga has 25+ years building companies, deploying capital, and scaling revenue across private credit, specialty finance, and capital markets. Founder or co-founder of multiple investment and specialty finance companies; former Managing Director of an investment banking capital markets group. $100M+ funded, 1,000+ transactions closed internationally. Active futures and options trader. MBA in Derivatives, Loyola University Chicago.
+Edward M. Liceaga has 25+ years building companies, deploying capital, and scaling revenue across private credit, specialty finance, and capital markets. Founder or co-founder of multiple investment and specialty finance companies; former Managing Director of an investment banking capital markets group. $100M+ funded, 1,000+ transactions closed internationally. MBA in Derivatives, Loyola University Chicago.
 **Link:** your website.
 
 ## 5. Loyola University Chicago alumni directory — .edu backlink, very high value
@@ -53,10 +54,10 @@ Edward M. Liceaga (MBA, Derivatives) has spent 25+ years building companies and 
 
 **Illinois State University alumni network** — second .edu link. Same short bio as Loyola, swap the degree line to "B.S., Accounting."
 
-**Muck Rack or Contently** (if you publish regularly) — journalist/writer portfolio that ranks well and links your articles. Bio: "Edward M. Liceaga writes about business financing, capital markets, and trading. 25+ years in specialty finance and capital markets." Link your two articles + website.
+**Muck Rack or Contently** (if you publish regularly) — journalist/writer portfolio that ranks well and links your articles. Bio: "Edward M. Liceaga writes about business financing, specialty finance, and capital markets. 25+ years originating and closing." Link your two articles + website.
 
 **Medium — About page.** Set display name to Edward M. Liceaga, add the website to your Medium bio, and the "About" text:
-"25+ years building companies and deploying capital across private credit, specialty finance, and capital markets. $100M+ funded, 1,000+ transactions closed. Active futures trader. I write about business financing and markets. edwardliceaga.com"
+"25+ years building companies and deploying capital across private credit, specialty finance, and capital markets. $100M+ funded, 1,000+ transactions closed. I write about business financing and specialty finance. edwardliceaga.com"
 
 **Substack — About page.** Same bio as Medium once the handle is @edwardliceaga.
 
