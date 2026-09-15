@@ -71,6 +71,24 @@
     h1 { font-size: 44px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 14px; }
     .headline { font-size: 21px; color: var(--ink-soft); font-weight: 400; max-width: 620px; }
     section { padding: 52px 0; border-bottom: 1px solid var(--rule); }
+    html { scroll-behavior: smooth; }
+    section { scroll-margin-top: 64px; }
+    .sitenav {
+      position: sticky; top: 0; z-index: 20;
+      background: rgba(255,255,255,0.96); backdrop-filter: blur(6px);
+      border-bottom: 1px solid var(--rule);
+      display: flex; align-items: center; gap: 24px; padding: 14px 0;
+      font-size: 15px; overflow-x: auto; white-space: nowrap;
+    }
+    .sitenav a { color: var(--ink-soft); text-decoration: none; font-weight: 500; }
+    .sitenav a:hover { color: var(--accent); }
+    .sitenav .nav-resume { margin-left: auto; color: var(--accent); font-weight: 600; }
+    .resume-btn {
+      display: inline-block; margin-top: 18px; padding: 10px 18px; border-radius: 6px;
+      background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; font-size: 15px;
+    }
+    .resume-btn:hover { opacity: 0.9; }
+    @media (max-width: 600px) { .sitenav { gap: 16px; font-size: 14px; } }
     section:last-of-type { border-bottom: none; }
     h2 {
       font-size: 14px; letter-spacing: 0.12em; text-transform: uppercase;
@@ -181,12 +199,21 @@
 <body>
   <div class="wrap">
 
+    <nav class="sitenav" aria-label="Site">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#writing">Writing</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-resume" href="assets/Edward_Liceaga_Resume.pdf" download>Resume</a>
+    </nav>
+
     <header>
       <div class="header-flex">
         <div>
           <div class="kicker">Specialty Finance &middot; Business Development &middot; Capital Markets</div>
           <h1>Edward M. Liceaga</h1>
           <p class="headline">Sales &amp; business development leader with 25+ years originating and closing in specialty finance and capital markets.</p>
+          <a class="resume-btn" href="assets/Edward_Liceaga_Resume.pdf" download>Download resume (PDF)</a>
         </div>
         <img class="headshot" src="assets/headshot.png" alt="Edward M. Liceaga">
       </div>
@@ -266,35 +293,6 @@
         <span class="chip">Business Development</span>
         <span class="chip">Origination</span>
         <span class="chip">Merchant Cash Advance</span>
-      </div>
-    </section>
-
-    <section id="ventures">
-      <h2>What I'm Working On</h2>
-      <div class="venture">
-        <div class="venture-banner">
-          <span class="dash"></span>
-          <div class="line">Banks judge your <em>credit score</em>. We judge your <em>revenue</em>.</div>
-          <div class="brandrow"><span>CCAP Solution</span><span>ccapsolution.com</span></div>
-        </div>
-        <div class="venture-content">
-          <h3>Creative Capital Solutions</h3>
-          <p>Working capital for small and mid-sized businesses: advances from $10K to $5M, business lines of credit, asset-based loans, AR factoring, and bridge loans. Fast, flexible, and structured around your cash flow. I work directly with owners to find the right fit.</p>
-          <a class="cta" href="https://ccapsolution.com/apply/?agent=edward.liceaga">Apply for funding</a>
-          <p class="fineprint">Funding subject to approval. Businesses may qualify in as fast as 24 hours on approved files.</p>
-        </div>
-      </div>
-      <div class="venture">
-        <div class="venture-photo">
-          <img src="assets/kenetik-can.png" alt="Kenetik ketone drink in hand">
-        </div>
-        <div class="venture-content">
-          <h3>Kenetik</h3>
-          <p>A caffeine-free ketone drink I use through long working days. Kenetik is powered by bioidentical D-BHB ketones, the same molecule your body produces when fasting, and it supports clarity, focus, and cognitive endurance through a long session without relying on caffeine.</p>
-          <p>It comes as ready-to-drink cans, 2 oz shots, and a concentrate, in flavors like Blackberry Lemonade, Strawberry Peach, Pineapple Passion Fruit, and Watermelon Lime. Zero caffeine, zero sugar, 60 calories, nothing artificial, and Informed Sport certified.</p>
-          <p>If your work demands hours of sustained attention, whether that's a sales floor, a long build, or a training block, it's worth trying.</p>
-          <a class="cta" href="https://drinkkenetik.com/EDDIEG">Try Kenetik</a>
-        </div>
       </div>
     </section>
 
@@ -381,6 +379,36 @@
       </div>
     </section>
 
+    <section id="ventures">
+      <h2>What I'm Working On</h2>
+      <div class="venture">
+        <div class="venture-banner">
+          <span class="dash"></span>
+          <div class="line">Banks judge your <em>credit score</em>. We judge your <em>revenue</em>.</div>
+          <div class="brandrow"><span>CCAP Solution</span><span>ccapsolution.com</span></div>
+        </div>
+        <div class="venture-content">
+          <h3>Creative Capital Solutions</h3>
+          <p>Working capital for small and mid-sized businesses: advances from $10K to $5M, business lines of credit, asset-based loans, AR factoring, and bridge loans. Fast, flexible, and structured around your cash flow. I work directly with owners to find the right fit.</p>
+          <a class="cta" href="https://ccapsolution.com/apply/?agent=edward.liceaga">Apply for funding</a>
+          <p class="fineprint">Funding subject to approval. Businesses may qualify in as fast as 24 hours on approved files.</p>
+        </div>
+      </div>
+      <div class="venture">
+        <div class="venture-photo">
+          <img src="assets/kenetik-can.png" alt="Kenetik ketone drink in hand">
+        </div>
+        <div class="venture-content">
+          <h3>Kenetik</h3>
+          <p>A caffeine-free ketone drink I use through long working days. Kenetik is powered by bioidentical D-BHB ketones, the same molecule your body produces when fasting, and it supports clarity, focus, and cognitive endurance through a long session without relying on caffeine.</p>
+          <p>It comes as ready-to-drink cans, 2 oz shots, and a concentrate, in flavors like Blackberry Lemonade, Strawberry Peach, Pineapple Passion Fruit, and Watermelon Lime. Zero caffeine, zero sugar, 60 calories, nothing artificial, and Informed Sport certified.</p>
+          <p>If your work demands hours of sustained attention, whether that's a sales floor, a long build, or a training block, it's worth trying.</p>
+          <a class="cta" href="https://drinkkenetik.com/EDDIEG">Try Kenetik</a>
+          <p class="fineprint">Use code EDDIEG at checkout.</p>
+        </div>
+      </div>
+    </section>
+
     <section id="education">
       <h2>Education &amp; Credentials</h2>
       <div class="role">
@@ -401,6 +429,7 @@
         <a href="https://substack.com/@edwardliceaga" rel="me">Substack</a>
         <a href="https://www.f6s.com/member/edward-liceaga" rel="me">F6S</a>
         <a href="mailto:eliceaga@gmail.com">Email</a>
+        <a href="assets/Edward_Liceaga_Resume.pdf" download>Resume (PDF)</a>
       </div>
       <p class="badge-row">
         <a href="https://www.f6s.com/member/edward-liceaga?follow=1" target="_blank" rel="me noopener" title="Follow Edward Liceaga on F6S"><img src="https://www.f6s.com/images/f6s-follow-primary.png" width="78" height="22" alt="Follow Edward Liceaga on F6S" loading="lazy"></a>
