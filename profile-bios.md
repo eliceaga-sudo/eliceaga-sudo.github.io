@@ -59,7 +59,7 @@ Edward M. Liceaga (MBA, Derivatives) has spent 25+ years building companies and 
 **Medium — About page.** Set display name to Edward M. Liceaga, add the website to your Medium bio, and the "About" text:
 "25+ years building companies and deploying capital across private credit, specialty finance, and capital markets. $100M+ funded, 1,000+ transactions closed. I write about business financing and specialty finance. edwardliceaga.com"
 
-**Substack — About page.** Same bio as Medium once the handle is @edwardliceaga.
+**Substack — About page.** Same bio as Medium, on substack.com/@edwardliceaga1 (the only Substack profile).
 
 **Slideshare or Behance** (optional) — if you ever turn an article into a slide deck, these host it with a link back. Low priority.
 
